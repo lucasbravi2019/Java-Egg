@@ -3,7 +3,7 @@ package lucas.introjava;
 import java.util.Scanner;
 
 public class Ejercicio14 {
-    public static void ejercicio14() {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double suma = 0;
         System.out.println("Ingrese el limite de la suma");
@@ -11,16 +11,16 @@ public class Ejercicio14 {
         System.out.println("Ingrese un numero");
         double numero = scan.nextDouble();
         suma += numero;
-        if(numero > limite) {
-            while(numero > limite) {
+        if (numero > limite) {
+            while (numero > limite) {
                 System.out.println("Por favor indique un numero menor al limite: " + limite);
                 numero = scan.nextDouble();
             }
         } else {
-            if(suma >= limite) {
+            if (suma >= limite) {
                 System.out.println("La suma es: " + suma);
             } else {
-                while(suma < limite) {
+                while (suma < limite) {
                     System.out.println("Por favor indique otro numero");
                     numero = scan.nextDouble();
                     suma += numero;

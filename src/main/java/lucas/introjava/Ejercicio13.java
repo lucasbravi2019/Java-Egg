@@ -3,13 +3,13 @@ package lucas.introjava;
 import java.util.Scanner;
 
 public class Ejercicio13 {
-    public static void ejercicio13() {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int nota;
-        do{
+        do {
             System.out.println("Ingrese una nota");
             nota = scan.nextInt();
-        } while(nota < 0 || nota > 10);
+        } while (nota < 0 || nota > 10);
         System.out.println("La nota es: " + nota);
         scan.close();
     }

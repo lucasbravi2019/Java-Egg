@@ -3,7 +3,7 @@ package lucas.introjava;
 import java.util.Scanner;
 
 public class Ejercicio6 {
-    public static void ejercicio6() {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese el numero a operar");
         double numero = scan.nextDouble();
