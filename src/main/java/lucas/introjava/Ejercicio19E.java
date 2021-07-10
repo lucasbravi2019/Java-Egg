@@ -1,7 +1,5 @@
 package lucas.introjava;
 
-import java.util.Arrays;
-
 public class Ejercicio19E {
     public static void rellenar(int[] vectorARellenar, int[] valores) {
         for (int i = 0; i < 9; i++) {

@@ -42,5 +42,6 @@ public class Ejercicio4E {
                 System.out.println("Numero invalido");
                 break;
         }
+        scan.close();
     }
 }

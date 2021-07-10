@@ -65,5 +65,6 @@ public class Ejercicio7E {
         System.out.println("El numero maximo fue: " + maximo);
         System.out.println("El numero minimo fue: " + minimo);
         System.out.println("El promedio fue: " + suma / positivos);
+        scan.close();
     }
 }

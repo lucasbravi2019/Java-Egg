@@ -19,5 +19,6 @@ public class Ejercicio9E {
         }
         System.out.println("El cociente de la division entre " + dividendo + " y " + divisor + " es de " + cociente
                 + " y su resto es de " + resto);
+        scan.close();
     }
 }

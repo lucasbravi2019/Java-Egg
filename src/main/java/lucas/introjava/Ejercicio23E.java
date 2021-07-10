@@ -33,5 +33,6 @@ public class Ejercicio23E {
         }
         System.out.println("Fibonacci:");
         System.out.println(fibo);
+        scan.close();
     }
 }

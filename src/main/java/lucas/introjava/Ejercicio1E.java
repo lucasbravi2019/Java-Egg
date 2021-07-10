@@ -15,6 +15,6 @@ public class Ejercicio1E {
         }
         System.out.println("El tiempo ingresado de " + minutos + " minutos en dias y horas es: " + dias + " dias y "
                 + horas + " horas.");
-
+        scan.close();
     }
 }

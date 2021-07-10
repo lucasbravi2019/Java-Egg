@@ -14,5 +14,6 @@ public class Ejercicio12E {
             }
             System.out.println("");
         }
+        scan.close();
     }
 }

@@ -10,7 +10,7 @@ public class Ejercicio15 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double suma;
+        double suma = 0;
         double resta;
         double multiplicacion;
         double division;
@@ -40,7 +40,7 @@ public class Ejercicio15 {
                 }
             } else {
                 if (operacion == 1) {
-                    suma(suma = 0, numero1, numero2);
+                    suma(suma, numero1, numero2);
                 }
                 if (operacion == 2) {
                     resta = numero1 - numero2;

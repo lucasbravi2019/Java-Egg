@@ -23,5 +23,6 @@ public class Ejercicio13E {
         }
         edadMedia = Math.round(edad / cantidadHijosTotales);
         System.out.println("La edad media de todos los hijos es de " + (int) edadMedia);
+        scan.close();
     }
 }

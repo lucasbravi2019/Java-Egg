@@ -1,7 +1,6 @@
 package lucas.introjava;
 
 import java.util.Scanner;
-import java.util.Objects;
 
 public class Ejercicio22E {
     public static int generarFilaColumna(int max) {
@@ -75,5 +74,6 @@ public class Ejercicio22E {
         }
         rellenarSopaAleatorio(sopa);
         escribirSopa(sopa);
+        scan.close();
     }
 }

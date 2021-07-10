@@ -53,5 +53,6 @@ public class Ejercicio26 {
         } else {
             System.out.println("No son matrices antisimetricas");
         }
+        scan.close();
     }
 }

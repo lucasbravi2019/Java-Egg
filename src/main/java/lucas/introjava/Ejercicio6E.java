@@ -6,7 +6,6 @@ public class Ejercicio6E {
         double suma = 0;
         double promedio;
         int contador = 0;
-        double altura;
         double[] alturas = { 1.59, 1.78, 1.64, 1.48, 1.50, 1.58 };
         for (int i = 0; i < n; i++) {
             System.out.println("Ingresar la altura de la persona");

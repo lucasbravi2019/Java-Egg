@@ -12,5 +12,6 @@ public class Ejercicio3E {
         } else {
             System.out.println("No es una vocal");
         }
+        scan.close();
     }
 }

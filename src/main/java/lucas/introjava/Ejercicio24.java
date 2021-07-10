@@ -1,6 +1,5 @@
 package lucas.introjava;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -59,5 +58,6 @@ public class Ejercicio24 {
         System.out.println("Numeros con 3 digitos: " + tres);
         System.out.println("Numeros con 4 digitos: " + cuatro);
         System.out.println("Numeros con 5 digitos: " + cinco);
+        scan.close();
     }
 }

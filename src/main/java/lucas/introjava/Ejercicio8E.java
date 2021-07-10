@@ -28,5 +28,6 @@ public class Ejercicio8E {
         System.out.println("La cantidad de numeros leidos es de " + numeros);
         System.out.println("La cantidad de numeros pares es de " + pares);
         System.out.println("La cantidad de numeros impares es de " + impares);
+        scan.close();
     }
 }

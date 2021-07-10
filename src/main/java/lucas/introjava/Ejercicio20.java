@@ -21,5 +21,6 @@ public class Ejercicio20 {
             System.out.print(numero + " " + cadena);
             System.out.println("");
         }
+        scan.close();
     }
 }

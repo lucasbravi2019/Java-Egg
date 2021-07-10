@@ -27,5 +27,6 @@ public class Ejercicio21 {
             System.out.println(
                     "La cantidad de euros " + cantidadEurosAConvertir + " en " + moneda + " son: " + convertido);
         }
+        scan.close();
     }
 }

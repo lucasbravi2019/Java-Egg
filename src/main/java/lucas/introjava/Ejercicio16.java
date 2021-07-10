@@ -22,5 +22,6 @@ public class Ejercicio16 {
             }
         }
         System.out.println("La suma total es: " + suma);
+        scan.close();
     }
 }

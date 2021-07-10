@@ -15,5 +15,6 @@ public class Ejercicio17E {
             suma += vector[i];
         }
         System.out.println("La suma es: " + suma);
+        scan.close();
     }
 }

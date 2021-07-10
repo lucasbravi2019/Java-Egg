@@ -15,5 +15,6 @@ public class Ejercicio11E {
             digitos += 1;
         }
         System.out.println("La cantidad de digitos del numero ingresado " + numero + " es de " + digitos);
+        scan.close();
     }
 }

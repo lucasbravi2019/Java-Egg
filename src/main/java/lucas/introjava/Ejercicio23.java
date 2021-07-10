@@ -28,5 +28,6 @@ public class Ejercicio23 {
         }
         System.out.println("Se repite " + contador + " veces");
         System.out.println(Arrays.toString(posiciones));
+        scan.close();
     }
 }

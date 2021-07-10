@@ -18,5 +18,6 @@ public class Ejercicio10E {
                 System.out.println("No adivino el numero! Siga participando!");
             }
         } while (numeroAleatorio != numeroAdivinado);
+        scan.close();
     }
 }

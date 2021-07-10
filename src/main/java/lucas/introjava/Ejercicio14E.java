@@ -24,7 +24,7 @@ public class Ejercicio14E {
     }
 
     public static void main(String[] args) {
-        double numero1, numero2, suma;
+        double numero1, numero2;
         int operacion;
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
@@ -52,5 +52,6 @@ public class Ejercicio14E {
         if (operacion > 4 || operacion < 1) {
             System.out.println("Especifico una operacion invalida");
         }
+        scan.close();
     }
 }

@@ -29,5 +29,6 @@ public class Ejercicio17 {
             System.out.println("La cantidad de veces que se leyo correctamente fue de: " + correcto + " veces");
             System.out.println("La cantidad de veces que se leyo incorrectamente fue de: " + incorrecto + " veces");
         }
+        scan.close();
     }
 }

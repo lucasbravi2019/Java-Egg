@@ -26,5 +26,6 @@ public class Ejercicio5E {
         } else {
             System.out.println("Ingreso un tipo de obra social invalido");
         }
+        scan.close();
     }
 }
