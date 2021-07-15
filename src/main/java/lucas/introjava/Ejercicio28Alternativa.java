@@ -1,5 +1,7 @@
 package lucas.introjava;
 
+import java.util.Arrays;
+
 public class Ejercicio28Alternativa {
     public static void main(String[] args) {
         int contador = 0;
